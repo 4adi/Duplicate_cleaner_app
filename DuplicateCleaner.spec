@@ -1,23 +1,16 @@
 # -*- mode: python ; coding: utf-8 -*-
-from PyInstaller.utils.hooks import collect_all
-
-datas = [('duplicate_cleaner_app.py', '.'), ('duplicate_records_cleaner.py', '.')]
-binaries = []
-hiddenimports = []
-tmp_ret = collect_all('streamlit')
-datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
 
 
 a = Analysis(
     ['run_app.py'],
     pathex=[],
-    binaries=binaries,
-    datas=datas,
-    hiddenimports=hiddenimports,
+    binaries=[],
+    datas=[],
+    hiddenimports=[],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
-    excludes=['matplotlib', 'scipy', 'pytest', 'tkinter'],
+    excludes=[],
     noarchive=False,
     optimize=0,
 )
@@ -42,6 +35,4 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    version='version.txt',
-    icon=['favicon.ico'],
 )
