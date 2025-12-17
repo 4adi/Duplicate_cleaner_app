@@ -74,14 +74,6 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_hashlib.pyd',
    'EXTENSION'),
-  ('select.pyd',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\select.pyd',
-   'EXTENSION'),
-  ('_socket.pyd',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_socket.pyd',
-   'EXTENSION'),
   ('_lzma.pyd',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_lzma.pyd',
@@ -89,6 +81,14 @@
   ('_bz2.pyd',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_socket.pyd',
    'EXTENSION'),
   ('VCRUNTIME140.dll',
    'C:\\Program '
@@ -110,7 +110,7 @@
  [],
  False,
  False,
- 1765966508,
+ 1765966842,
  [('runw.exe',
    'C:\\Users\\AadilAnvar\\Duplicate_cleaner_app\\venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
    'EXECUTABLE')],
