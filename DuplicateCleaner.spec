@@ -1,12 +1,19 @@
 # -*- mode: python ; coding: utf-8 -*-
+from PyInstaller.utils.hooks import collect_all
+
+datas = [('duplicate_cleaner_app.py', '.'), ('duplicate_records_cleaner.py', '.')]
+binaries = []
+hiddenimports = []
+tmp_ret = collect_all('streamlit')
+datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
 
 
 a = Analysis(
     ['run_app.py'],
     pathex=[],
-    binaries=[],
-    datas=[('duplicate_cleaner_app.py', '.'), ('duplicate_records_cleaner.py', '.')],
-    hiddenimports=[],
+    binaries=binaries,
+    datas=datas,
+    hiddenimports=hiddenimports,
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
