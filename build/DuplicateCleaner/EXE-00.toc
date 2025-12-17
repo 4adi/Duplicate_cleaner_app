@@ -110,7 +110,7 @@
  [],
  False,
  False,
- 1765956948,
+ 1765962927,
  [('runw.exe',
    'C:\\Users\\AadilAnvar\\Duplicate_cleaner_app\\venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
    'EXECUTABLE')],
