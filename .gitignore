@@ -1,0 +1,22 @@
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Streamlit state/config
+.streamlit/
+
+# OS junk
+.DS_Store
+
+# Archives created by the app
+.files/
+deleted_duplicates_*.zip
+live_production_duplicates_*.zip
+
+# IDE/Editor
+.idea/
+.vscode/
